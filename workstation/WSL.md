@@ -4,7 +4,6 @@
 
 Em "Ativar e Remover Recusos" deve ativar as opções e reiniciar:
 
-- Hyper-V 
 - Subsistema do Windows para Linux (Microsoft Subsystem for Linux)
 - Plataforma de Máquina Virtual (Virtual Machine Platform)
 
