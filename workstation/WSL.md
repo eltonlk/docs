@@ -12,7 +12,7 @@ Em "Ativar e Remover Recusos" deve ativar as opções e reiniciar:
 
 Baixar e instalar o [pacote de atualização do kernel do Linux](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
 
-[https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi](Pacote de atualização do kernel do Linux do WSL2 para computadores x64)
+[Pacote de atualização do kernel do Linux do WSL2 para computadores x64](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 ## Definir o WSL 2 como a sua versão padrão
 
