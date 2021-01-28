@@ -27,19 +27,19 @@ Clique em obter, em instalar e depois em iniciar.
 
 Na primeira vez que você iniciar uma distribuição do Linux recém-instalada, você precisará criar uma conta de usuário e uma senha para sua nova distribuição do Linux.
 
-## Instalar o Terminal do Windows (Opcional)
+## Instalar o Terminal do Windows
 
 Abra a Microsoft Store e faça uma busca por Windows Terminal.
 
 Clique em obter, em instalar e depois em iniciar. Já vai aparecer na &#709; a distribuição linux instalada.
 
-## Definir a distribuição do linux como padrão do terminal (Opcional)
+## Definir a distribuição do linux como padrão do terminal
 
 Clique na &#709; e em seguida em Configurações.
 
 Na chave "defaultProfile" substitua a valor pelo o guid do profile (Terminal ou distribuição linux) desejado.
 
-## Instalar Fontes Powerline para o terminal (Opcional)
+## Instalar Fontes Powerline para o terminal
 
 Procure por Windows PowerShell e clique na opção de executar como administrador.
 
