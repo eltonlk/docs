@@ -9,7 +9,7 @@
 Ubuntu
 
 ```sh
-sudo apt install build-essential gnupg2 zip
+sudo apt install build-essential gnupg2 zip libmysqlclient-dev
 ```
 
 ## Diversos
