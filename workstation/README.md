@@ -19,6 +19,35 @@ sudo apt install build-essential gnupg2 zip libmysqlclient-dev mysql-client
 - [Editor de Texto](Editor.md)
 - [Docker + Docker Compose](Docker.md)
 
+## - Python
+
+[pyenv-installer](https://github.com/pyenv/pyenv-installer)
+[pyenv](https://github.com/pyenv/pyenv)
+
+
+```sh
+sudo apt-get update
+sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+curl https://pyenv.run | bash
+```
+
+Adicionar no .bashrc.
+
+```sh
+export PATH="/home/elton/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+
+Instalar a versão desejada e definir como global
+
+```sh
+pyenv install --list
+pyenv install 3.9.2
+pyenv global 3.9.2
+```
+
 ## RVM - Ruby
 
 [rvm.io](https://rvm.io/)
