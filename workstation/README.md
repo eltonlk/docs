@@ -9,7 +9,7 @@
 Ubuntu
 
 ```sh
-sudo apt install build-essential gnupg2 zip libmysqlclient-dev mysql-client postgresql-client
+sudo apt install build-essential gnupg2 zip libmysqlclient-dev mysql-client libpq-dev postgresql-client
 ```
 
 ## Diversos
