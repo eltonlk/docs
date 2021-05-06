@@ -44,8 +44,8 @@ Instalar a versão desejada e definir como global
 
 ```sh
 pyenv install --list
-pyenv install 3.9.2
-pyenv global 3.9.2
+pyenv install 3.9.5
+pyenv global 3.9.5
 ```
 
 ## RVM - Ruby
