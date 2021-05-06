@@ -27,6 +27,12 @@ Clique em obter, em instalar e depois em iniciar.
 
 Na primeira vez que você iniciar uma distribuição do Linux recém-instalada, você precisará criar uma conta de usuário e uma senha para sua nova distribuição do Linux.
 
+Atualizar os pacotes da destribuição
+
+    sudo apt update
+    sudo apt list --upgradable
+    sudo apt dist-upgrade
+
 ## Instalar o Terminal do Windows
 
 Abra a Microsoft Store e faça uma busca por Windows Terminal.
