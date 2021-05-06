@@ -86,6 +86,12 @@ Instalar a última versão do Node.
 nvm install node
 ```
 
+Instalar a versão estável do Node.
+
+```sh
+nvm install --lts
+```
+
 ## PHP + Composer
 
 ```sh
