@@ -97,7 +97,7 @@ nvm install --lts
 ```sh
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php7.3 php7.3-fpm php7.3-sqlite php7.3-mbstring php7.3-curl php7.3-xml php7.3-zip 
+sudo apt-get install php8.0 php8.0-fpm php8.0-sqlite php8.0-mbstring php8.0-curl php8.0-xml php8.0-zip 
 ```
 
 [composer](https://getcomposer.org/download/)
