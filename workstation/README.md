@@ -21,7 +21,7 @@ sudo apt install build-essential gnupg2 zip libmysqlclient-dev mysql-client libp
 - [Editor de Texto](Editor.md)
 - [Docker + Docker Compose](Docker.md)
 
-## - Python
+## PYENV - Python
 
 [pyenv-installer](https://github.com/pyenv/pyenv-installer)
 [pyenv](https://github.com/pyenv/pyenv)
