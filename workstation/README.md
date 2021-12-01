@@ -33,7 +33,27 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 gcloud -v
 ```
 
-## PYENV - Python
+## Python
+
+### Ubuntu
+
+Python 2
+
+```sh
+  sudo apt install python2
+  sudo rm /etc/alternatives/python
+  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
+```
+
+Python 3
+
+```sh
+  sudo apt install python3
+  sudo rm /etc/alternatives/python
+  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+```
+
+### PYENV
 
 [pyenv-installer](https://github.com/pyenv/pyenv-installer)
 [pyenv](https://github.com/pyenv/pyenv)
