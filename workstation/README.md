@@ -122,6 +122,15 @@ Instalar a versão estável do Node.
 nvm install --lts
 ```
 
+Criar o arquivo [.nvmrc](https://github.com/nvm-sh/nvm#nvmrc) dentro do projeto
+
+```sh
+cd my-project
+nvm use # identifica a versão do node do projeto atual
+```
+
+[Integração com o terminal](https://github.com/nvm-sh/nvm#deeper-shell-integration) para identicar automaticamente
+
 ## PHP + Composer
 
 ```sh
