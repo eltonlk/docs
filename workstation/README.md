@@ -88,10 +88,17 @@ pyenv global 3.9.5
 gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 \curl -sSL https://get.rvm.io | bash -s stable
 rvm list known
-rvm install 2.6
+rvm install 3.1
 gem install bundler
 gem install git-up
 gem install rails --pre
+```
+
+Para as versões do ruby < 3.1 deve instalar com o openssl 1.1
+
+```sh
+  rvm pkg install openssl
+  rvm install ruby-3.0.0 --with-openssl-dir=$HOME/.rvm/usr
 ```
 
 ## NVM - Node
