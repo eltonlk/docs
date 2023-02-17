@@ -11,7 +11,7 @@ Ubuntu
 ```sh
 sudo apt update
 sudo apt upgrade
-sudo apt install build-essential gnupg2 zip libmysqlclient-dev mysql-client libpq-dev postgresql-client
+sudo apt install build-essential gnupg2 zip libmysqlclient-dev mysql-client libpq-dev postgresql-client imagemagick
 ```
 
 ## Diversos
