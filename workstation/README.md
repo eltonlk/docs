@@ -179,6 +179,14 @@ cat ~/.ssh/id_rsa.pub
 
 Copie a chave gerada e coloque onde for usar, [github](http://github.com/), [bitbucket](http://bitbucket.com/), etc.
 
+## Docker
+
+```sh
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456789 -e MYSQL_ROOT_HOST=% -p 3306:3306 -d mysql:latest
+docker run --name redis -p 6379:6379 -d redis:latest
+docker run --name postgres -e POSTGRES_PASSWORD=123456789 -p 5432:5432 -d postgres:latest
+```
+
 ##
 
 ```sh
