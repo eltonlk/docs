@@ -9,6 +9,7 @@ sudo apt install git
 ```sh
 git config --global user.name "Elton Luis Kolling"
 git config --global user.email "eltonlk@gmail.com"
+git config --global init.defaultBranch main
 git config --global color.ui true
 git config --global color.status auto
 git config --global color.branch auto
