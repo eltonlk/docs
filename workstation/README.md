@@ -143,7 +143,7 @@ nvm use # identifica a versão do node do projeto atual
 ```sh
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php8.0 php8.0-fpm php8.0-sqlite php8.0-mbstring php8.0-curl php8.0-xml php8.0-zip 
+sudo apt-get install php8.5 php8.5-fpm php8.5-sqlite php8.5-mbstring php8.5-curl php8.5-xml php8.5-zip 
 ```
 
 [composer](https://getcomposer.org/download/)
